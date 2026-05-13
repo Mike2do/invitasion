@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: landing_evento_web
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
@@ -87,3 +88,38 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+=======
+name: invitacion_webinar
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Paquetes solicitados
+  url_launcher: ^6.3.0    # Para abrir enlaces externos
+  google_fonts: ^6.2.1    # Para tipografía de la landing
+  
+  # Iconos nativos
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  # Versión sugerida por la terminal para evitar el error de resolución
+  gh_pages: ^0.1.1
+
+flutter:
+  uses-material-design: true
+
+  # Recuerda que la carpeta assets/images/ debe existir físicamente
+  assets:
+    - assets/images/logo.png
+>>>>>>> 9fd75e8 (Mi primer commit)
